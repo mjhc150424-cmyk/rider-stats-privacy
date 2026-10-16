@@ -29,7 +29,7 @@ jobs:
           node-version: 20
           cache: 'npm'
       - name: Instalar dependencias
-        run: npm ci || npm install
+        run: npm install
       - name: Compilar aplicación web
         run: npm run build
       - name: Configurar GitHub Pages
